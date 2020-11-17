@@ -1,0 +1,27 @@
+/* Comentario em css */
+/*  # -> refere-se ao id */
+/*  .  -> refere-se a classe*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: #ebf2f5
+}
+
+:root {
+  /*16px é o padrao do computador*/
+  font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
